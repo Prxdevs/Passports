@@ -52,14 +52,14 @@ app.post("/contact", function(req,res,){
         port: 465,
         secure: true,
         auth: {
-          user: 'ppurvesh7@gmail.com',
-          pass: 'oivpfeitjvgkxbrg',
+          user: 'prxdevs@gmail.com',
+          pass: 'szutsadvtbfvweul',
         }
     });
   
     var mailOptions = {
-        from: req.body.email+"Sent Mail on TorqueHQ",
-        to: 'mervimal9@gmail.com',
+        from: req.body.email+"Sent Mail on dyfgujarat !",
+        to: 'dyfgujrat@gmail.com',
         subject: 'To Torque!',
         company: req.body.company,
         text: req.body.name + " sent you a message : \n" +"\n Message: "+ JSON.stringify(req.body.message) + "\n Email id: " + req.body.email + "\n Company: " + req.body.company
@@ -87,14 +87,14 @@ app.post("/contact", function(req,res,){
         port: 465,
         secure: true,
         auth: {
-          user: 'ppurvesh7@gmail.com',
-          pass: 'oivpfeitjvgkxbrg',
+          user: 'prxdevs@gmail.com',
+          pass: 'szutsadvtbfvweul',
         }
     });
   
     var mailOptions = {
         from: req.body.email+"Sent Mail on DYFGUJARAT",
-        to: 'mervimal9@gmail.com',
+        to: 'dyfgujrat@gmail.com',
         subject: 'Mail from dyfgujarat',
         // company: req.body.company,
         text: req.body.name + " sent you a message : \n" +"\n Father's Name: "+ JSON.stringify(req.body.fname) + "\n Mother's Name: " + req.body.mname  + "\n Address: " + req.body.address   + "\n State: " + req.body.state1 + "\n Pincode: " + req.body.pincode + "\n Date of Birth: " + req.body.dob1 + "\n Aadhar: " + req.body.aadhar + "\n Phone: " + req.body.phone + "\n Email: " + req.body.email + "\n Gender: " + req.body.gender + "\n Married: " + req.body.married  + "\n Blood Group: " + req.body.bloodGroup + "\n Category: " + req.body.category  + "\n Level: " + req.body.level + "\n Passport Number: " + req.body.passportnumber  + "\n Passport Date: " + req.body.passportdate  + "\n Events: " + req.body.events  , 
@@ -122,14 +122,14 @@ app.post("/contact", function(req,res,){
         port: 465,
         secure: true,
         auth: {
-          user: 'ppurvesh7@gmail.com',
-          pass: 'oivpfeitjvgkxbrg',
+          user: 'prxdevs@gmail.com',
+          pass: 'szutsadvtbfvweul',
         }
     });
   
     var mailOptions = {
-        from: req.body.email+"Sent Mail on TorqueHQ",
-        to: 'mervimal9@gmail.com',
+        from: req.body.email+"Sent Mail on dyfgujarat !",
+        to: 'dyfgujrat@gmail.com',
         subject: 'To Torque!',
         company: req.body.company,
         text: req.body.name + " sent you a message : \n" +"\n Message: "+ JSON.stringify(req.body.message) + "\n Email id: " + req.body.email + "\n Company: " + req.body.company
