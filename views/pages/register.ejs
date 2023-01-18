@@ -118,7 +118,7 @@ return true;
                         <div class="header-info">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <h6>Email Us:</h6>
-                            <a href="#"><span>pcup.pci@gmail.com</span></a>
+                            <a href="mailto:dyfgujrat@email.com"><span>dyfgujarat@gmail.com</span></a>
                         </div>
                        
                     </div>
@@ -290,8 +290,8 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ToolkitSc
                                 </div>
                                    <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
-                                         <input name="state1" type="text" id="ctl00_ContentPlaceHolder1_txtstate" placeholder="State" />
-                                       <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator4" class="alertdanger" style="color:Red;display:none;">State is Required</span>
+                                         <input name="state1" type="text" id="ctl00_ContentPlaceHolder1_txtstate" placeholder="District" />
+                                       <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator4" class="alertdanger" style="color:Red;display:none;">District is Required</span>
                                     </div>
                                     </div>
                                 <div class="col-md-6 col-sm-12 col-xs-12">
@@ -340,6 +340,22 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ToolkitSc
                                            <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator6" class="alertdanger" style="color:Red;display:none;">Gender is Required</span>
                                                                            </div>
                                     </div>
+
+
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            
+                                           <select name="gender" id="ctl00_ContentPlaceHolder1_ddlgender">
+        <option value="None">Category</option>
+        <option value="F">F</option>
+        <option value="T">T</option>
+    
+    </select>
+                                               <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator6" class="alertdanger" style="color:Red;display:none;">Gender is Required</span>
+                                                                               </div>
+                                        </div>
+
+
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         
@@ -379,6 +395,9 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ToolkitSc
 	<option value="None">Physically Challenge Category</option>
 	<option value="	Visually Impaired">	Visually Impaired</option>
 	<option value="Orthopedically Handicapped">Orthopedically Handicapped</option>
+	<option value="Orthopedically Handicapped">Intellectual Disability</option>
+	<option value="Orthopedically Handicapped">Self Palsy</option>
+	<option value="Orthopedically Handicapped">Other</option>
 
 </select>
                                            <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator10" class="alertdanger" style="color:Red;display:none;">Physically Challenge Category is Required</span>
@@ -397,18 +416,19 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ToolkitSc
                                            <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator12" class="alertdanger" style="color:Red;display:none;">Athlete Level is Required</span>
                                     </div>
                                     </div>
-                                  <div class="col-md-6 col-sm-12 col-xs-12">
+                                  <!-- <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                          <input name="passportnumber" type="text" id="ctl00_ContentPlaceHolder1_txtpassportnumber" placeholder="Passport No" />
                                       
                                     </div>
-                                    </div>
-                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    </div> -->
+                                <!-- <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                          <input name="passportdate" type="text" id="ctl00_ContentPlaceHolder1_txtpassportdate" placeholder="Passport Validity Date" />
                                       
                                     </div>
-                                    </div>
+                                    </div> -->
+                                    
 
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
@@ -449,6 +469,8 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ToolkitSc
             </div>
        
     </section>
+
+    
 
 
   
