@@ -60,7 +60,7 @@ app.post("/contact", function(req,res,){
     var mailOptions = {
         from: req.body.email+"Sent Mail on dyfgujarat !",
         to: 'dyfgujrat@gmail.com',
-        subject: 'To Torque!',
+        subject: 'Mail from dyfgujarat',
         company: req.body.company,
         text: req.body.name + " sent you a message : \n" +"\n Message: "+ JSON.stringify(req.body.message) + "\n Email id: " + req.body.email + "\n Company: " + req.body.company
       };
@@ -130,7 +130,7 @@ app.post("/contact", function(req,res,){
     var mailOptions = {
         from: req.body.email+"Sent Mail on dyfgujarat !",
         to: 'dyfgujrat@gmail.com',
-        subject: 'To Torque!',
+        subject: 'Mail from dyfgujarat',
         company: req.body.company,
         text: req.body.name + " sent you a message : \n" +"\n Message: "+ JSON.stringify(req.body.message) + "\n Email id: " + req.body.email + "\n Company: " + req.body.company
       };
