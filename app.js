@@ -1,7 +1,12 @@
 var express = require('express');
 var app = express();
+const http = require('http');
+const hostname='localhost';
+const port = 6000;
 
-const port = process.env.PORT || 5000;
+//This line for run server on local system and remove line number 3,4,5
+// const port = process.env.PORT || 5000;
+
 var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser')
 
@@ -148,11 +153,13 @@ app.post("/contact", function(req,res,){
       
   });
 
-
+//make change for run on local server 
+  // app.listen(port, () => {
+  //   console.log(`The server is running on port ${port}`)
   
 //Listening to port
-app.listen(port, () => {
-    console.log(`The server is running on port ${port}`)
+app.listen(port,hostname, () => {
+    console.log(`The server is running on http://${hostname}:${port}/`)
     
    
    
